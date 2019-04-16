@@ -30,3 +30,22 @@ Using `Shift+Tab` gives a different contextual help within a Jupyter Notebook. W
 Retrieving doc strings from modules and functions is needed.
 
 What is the benefit and purpose of `__name__` and the shebang? -> Better explanation needed.
+
+
+```python
+x = [1,2,3,[4.5,6.7,7.8]]
+
+for item in x:
+    #try:
+    #    for subitem in item:
+    #        print(subitem)
+    #except:
+    #    print(item)
+    
+    
+    if type(item) is list:
+        for subitem in range(len(item)):
+            print(item[subitem])
+    else:
+        print(item)
+```
