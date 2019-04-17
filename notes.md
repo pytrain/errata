@@ -49,3 +49,9 @@ for item in x:
     else:
         print(item)
 ```
+
+
+James Mason in 670
+* [https://zero-to-jupyterhub.readthedocs.io/en/latest/](https://zero-to-jupyterhub.readthedocs.io/en/latest/)
+* [https://jupyter.org/jupyter-book/features/interact.html](https://jupyter.org/jupyter-book/features/interact.html)
+* Note: He said he used Kubernetes deployment (somewhat difficult to new users) due to Google Colab restricting the memory size in those notebooks.
